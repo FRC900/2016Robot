@@ -135,9 +135,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Handling" Type="Folder" URL="../Handling">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Handling" Type="Folder"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -634,6 +632,11 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Handling Controller.vi" Type="VI" URL="../Handling/Implementation/Handling Controller.vi"/>
+			<Item Name="Handling Setpoints.ctl" Type="VI" URL="../Handling/Implementation/Handling Setpoints.ctl"/>
+			<Item Name="Handling Operations.ctl" Type="VI" URL="../Handling/Implementation/Handling Operations.ctl"/>
+			<Item Name="Handling Controller Initialization.vi" Type="VI" URL="../Handling/Implementation/Infrastructure/Handling Controller Initialization.vi"/>
+			<Item Name="Handling Check for New Command.vi" Type="VI" URL="../Handling/Implementation/Infrastructure/Handling Check for New Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
