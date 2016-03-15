@@ -616,6 +616,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CameraRead MJPGString.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRead MJPGString.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -637,6 +640,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Handling Operations.ctl" Type="VI" URL="../Handling/Implementation/Handling Operations.ctl"/>
 			<Item Name="Handling Controller Initialization.vi" Type="VI" URL="../Handling/Implementation/Infrastructure/Handling Controller Initialization.vi"/>
 			<Item Name="Handling Check for New Command.vi" Type="VI" URL="../Handling/Implementation/Infrastructure/Handling Check for New Command.vi"/>
+			<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../Support Code/LeastDistanceAngle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
