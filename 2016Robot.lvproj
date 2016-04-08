@@ -138,6 +138,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Handling" Type="Folder" URL="../Handling">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="CDF Mechanism" Type="Folder" URL="../CDF Mechanism">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
