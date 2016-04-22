@@ -27,7 +27,6 @@
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
-		<Item Name="Motion Profile Tester.vi" Type="VI" URL="../Support Code/Motion Profile Tester.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -663,6 +662,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Motion Profile Generater-Optimized.vi" Type="VI" URL="../Support Code/Motion Profile Generater-Optimized.vi"/>
+			<Item Name="Motion Profile Generator-Optimized.vi" Type="VI" URL="../../Controller-Templates/Support Code/Team900-VIs/Motion Profile Generator-Optimized.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
