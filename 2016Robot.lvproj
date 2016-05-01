@@ -663,7 +663,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Motion Profile Generater-Optimized.vi" Type="VI" URL="../Support Code/Motion Profile Generater-Optimized.vi"/>
-			<Item Name="Motion Profile Generator-Optimized.vi" Type="VI" URL="../../Controller-Templates/Support Code/Team900-VIs/Motion Profile Generator-Optimized.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
